@@ -1,0 +1,38 @@
+.logo-menu{
+    margin:15px auto 0  10px;
+    width:70%;
+}
+.menu-items{
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+}
+.block-1 li{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+a{
+    color:rgb(147, 147, 147);
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 5%;
+    text-decoration: none;
+    transition: all .7s ease-in-out;
+}
+a:hover, .active{
+    color:white;
+}
+.block-2{
+    margin-top: 10%;
+}
+.block-2 li{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.block-3{
+    margin-top: 100%;
+}
+.block-3 li a{
+    padding-left: 10%;
+    font-size:10px;
+}

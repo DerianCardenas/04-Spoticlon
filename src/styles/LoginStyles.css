@@ -1,0 +1,77 @@
+.cont-buttons{
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    height:100%;
+    justify-content:space-between;
+    margin-left: 70%;
+    width: 30%;
+}
+#register, #login{
+    margin: auto;
+    height:80%;
+    width: 47%;
+}
+#register{
+    border:none;
+    background-color:transparent;
+    color:white;
+}
+#register:hover, #login:hover{
+    cursor: pointer;
+    scale:1.1;
+}
+#login{
+    border: none;
+    border-radius: 30px;
+    background-color:white;
+    color:rgb(26, 26, 26);
+}
+/* VISTA DE LOGIN - LOGINVIEW.JSX */
+.login-view{
+    display:flex;
+}
+.contents{
+    background-color: rgb(20,20,20);
+    border-radius: 20px;
+    display:flex;
+    justify-content:space-around;
+    margin: 1em auto;
+    padding:5em;
+    width:70%;
+}
+.content-login, .content-register{
+    overflow:hidden;
+    padding: 10%;
+    width:50%;
+}
+.content-login h1, .content-register h1{
+    display:block;
+    text-align: center;
+}
+.content-login{
+    border-right: 1px solid white;
+}
+.content-register{
+    border-left: 1px solid white;
+}
+.input-text{
+    border-radius: 8px;
+    line-height:25px;
+    margin:5px auto;
+    width:100%;
+}
+.input-button{
+    color:white;
+    background-color:green;
+    display: block;
+    margin: 10px auto;
+    padding:0;
+    text-align: center;
+    transition: all .7s ease-in-out;
+    width:50%;
+}
+.input-button:hover{
+    background-color: rgb(14, 251, 14);
+    color:black;
+}

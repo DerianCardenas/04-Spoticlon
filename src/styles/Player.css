@@ -1,0 +1,84 @@
+/* ComponenteCuerpo.jsx */
+.content h2{
+    text-align:center;
+    width:100%;
+}
+.song-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    width: 95%;
+}
+/* Song.jsx */
+.song-player{
+    background-color: rgba(20,20,20,.5);
+    border-radius: 15px;
+    color:white;
+    display:block;
+    margin: 1em auto;
+    transition: all .7s ease-in-out;
+    width:300px;
+}
+.song-player:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.song-player h3{
+    font-size: 1em;
+    margin: 1px auto;
+    text-align: center;
+    width:100%;
+}
+.song-img{
+    background-color: rgb(20,20,20);
+    border-radius: 15px;
+    display: block;
+    height:60%;
+    margin: 1em auto;
+    padding: 15px;
+    width:80%;
+}
+.song-img img{
+    display:flex;
+    height:70%;
+    width:70%;
+    margin: 10px auto;
+}
+.song-controls{
+    display:flex;
+    height:auto;
+    width:100%;
+}
+.play{
+    background-color: white;
+    border-radius:50%;
+    color: rgb(30,235,30);
+    margin: 20px auto;
+    height:25px;
+    padding:10px;
+    transition: all .7s ease-in-out;
+    width:25px;
+}
+.like-song{
+    background-color: white;
+    border-radius:50%;
+    color: rgb(30,235,30);
+    margin: 20px auto;
+    height:25px;
+    padding:10px;
+    transition: all .7s ease-in-out;
+    width:25px;
+}
+.play:hover{
+    background-color: rgb(30,235,30);
+    color:white;
+    cursor:pointer;
+}
+.like-song:hover{
+    background-color: rgb(255,30,30);
+    color:white;
+    cursor:pointer;
+}
+.add:hover{
+    rotate: 90deg;
+}
